@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/khanhney/node-red-contrib-meo-hutech-olp-2018"
   },
   "keywords": [
     "node-red",
