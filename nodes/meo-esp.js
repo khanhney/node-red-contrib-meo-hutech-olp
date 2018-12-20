@@ -53,7 +53,7 @@ module.exports = function(RED) {
     */
     this.parseDeviceDataToJson = function(data) {
       let values, result = {};
-
+      node.log(values);
       if (data && (values = data.split(";")).length === 11) {
           // Map raw data to JSON
           // CONVERT D5: REPLACE WITH START_END
@@ -75,8 +75,7 @@ module.exports = function(RED) {
       }
     }
   }
-
-  RED.nodes.registerType("meo-esp-in-huetch", MEOESPInNode);
+  RED.nodes.registerType("meo-esp-in-hut", MEOESPInNode);
 
   function MEOESPOutNode(config) {
     RED.nodes.createNode(this, config);
@@ -137,5 +136,5 @@ module.exports = function(RED) {
     }
   }
 
-  RED.nodes.registerType("meo-esp-out-hutech", MEOESPOutNode);
+  RED.nodes.registerType("meo-esp-out-hut", MEOESPOutNode);
 }

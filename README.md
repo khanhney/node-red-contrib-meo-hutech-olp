@@ -1,4 +1,4 @@
-# node-red-contrib-meo-hutech-olp-2018
+# node-red-contrib-meo-hutech-olp
 
 This module provices a set of nodes in Node-RED to quickly receive data from ESP8266 board with MEO ESP firmware flashed.
 
@@ -32,6 +32,6 @@ Node-RED-MEO-ESP requires Node-RED version 0.14 or more recent.
 
 To install the stable version run the following command in your Node-RED user directory (typically `~/.node-red`):
 
-    npm i node-red-contrib-meo-hutech-olp-2018
+    npm i node-red-contrib-meo-hutech-olp
 
 Open your Node-RED instance and you should have one new node in input category and one new node in output category.
