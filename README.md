@@ -1,6 +1,6 @@
 # node-red-contrib-meo-hutech-olp
 
-This module provices a set of nodes in Node-RED to quickly receive data from ESP8266 board with MEO ESP firmware flashed.
+This module provices a set of nodes in Node-RED to quickly receive data from ESP8266 or ESP32 board with MEO ESP firmware flashed.
 
 There are 2 nodes available at the moment:
 - An input node is to receive data from ESP Board, bellow is a sample of output format:
